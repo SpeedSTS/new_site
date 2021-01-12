@@ -1,0 +1,54 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+}
+div.header
+{
+    min-height: 300px;
+    background-image: url(baner.jpg);
+    background-size: cover;
+
+}
+div.menu
+{
+    width: 100%;
+    position: fixed;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover
+{
+    font-weight: bold;
+}
+li a:visited
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div.footer
+{
+    text-align: center;
+}
